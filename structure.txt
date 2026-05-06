@@ -1,0 +1,19 @@
+retail-intelligence-system/
+│
+├── data/
+│   └── raw/
+│   └── processed/
+│
+├── notebooks/
+│
+├── src/
+│   ├── preprocessing.py
+│   ├── features.py
+│   ├── train.py
+│   ├── predict.py
+│
+├── api/
+│   └── main.py
+│
+├── requirements.txt
+└── README.md

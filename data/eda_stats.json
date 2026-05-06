@@ -1,0 +1,10 @@
+{
+    "total_transactions": 4565000,
+    "unique_stores": 48,
+    "unique_items": 50,
+    "date_range": "2019-01-01 00:00:00 to 2023-12-31 00:00:00",
+    "demand_mean": 77.41246484118291,
+    "demand_std": 88.35963058612526,
+    "price_mean": 215.3167468674699,
+    "outlier_percentage": 8.549309967141292
+}
