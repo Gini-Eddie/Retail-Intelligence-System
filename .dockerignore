@@ -1,0 +1,7 @@
+# .dockerignore
+__pycache__/
+.venv/
+.env
+.git/
+.dvc/
+data/raw/

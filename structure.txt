@@ -1,19 +1,18 @@
 retail-intelligence-system/
 │
 ├── data/
-│   └── raw/
+│   ├── raw/
+│   │   └── retail_sales.csv
 │   └── processed/
-│
+│       └── cleaned_retail_sales.csv  # Engineered & enriched dataset
+├── models/
+│   ├── demand_prediction_model.pkl   # Trained Random Forest
+│   └── target_encoder.pkl            # Trained category encoder
 ├── notebooks/
-│
-├── src/
-│   ├── preprocessing.py
-│   ├── features.py
-│   ├── train.py
-│   ├── predict.py
-│
-├── api/
-│   └── main.py
-│
+│   ├── data_exploration_and_cleaning.ipynb        # ETL Pipeline
+│   ├── eda_explore.ipynb     # Exploratory Data Analysis
+|   ├── model_training.ipynb     # ML Training & Evaluation
+│   └── price_optimization.ipynb   # ML Simulation Logic
+├── app.py                            # Streamlit Web Dashboard
 ├── requirements.txt
 └── README.md
